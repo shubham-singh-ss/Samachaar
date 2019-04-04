@@ -1,0 +1,192 @@
+.App_Login {
+  height: 100%;
+  display: flex;
+  font-family: 'Baloo Chettan', cursive;
+  color: white;
+  background-image: url('https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  font-family: 'Baloo Chettan', cursive;
+  color: white;
+}
+
+.App__Aside_login {
+  font-family: 'Baloo Chettan', cursive;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.App__Aside_Heading{
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 5em;
+  text-align: center;
+  margin:20%;
+}
+
+
+.App__Aside__text_login {
+  font-family: 'Baloo Chettan', cursive;
+  font-weight: 800;
+  margin:20% 5% 30% 5%;
+  line-height: normal;
+  font-size: 50px;
+}
+
+.App__Form__text_login {
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 3em;
+  font-weight: 900;
+  color:white;
+  float: left;
+}
+
+.App__Form_login {
+  width: 40%;
+  font-family: 'Baloo Chettan', cursive;
+  background: rgba(255, 255, 255, 0.4);
+  background: #0f0c29;
+  background: linear-gradient(to top, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 25px 40px;
+  height:90%;
+  margin:5%;
+}
+
+
+.App__Aside {
+  width: 40%;
+  font-family: 'Baloo Chettan', cursive;
+  background: rgba(255, 255, 255, 0.4);
+  background: #0f0c29;
+  background: linear-gradient(to top, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.App__Aside__text {
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+  font-size: 4em;
+  margin:10%;
+}
+
+.App__Form__text {
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 2.5em;
+  float: left;
+}
+
+.App__Form {
+  width: 60%;
+  font-family: 'Baloo Chettan', cursive;
+  background-color: #e2e7f9 ;
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.FormField {
+  margin-bottom: 40px;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: white;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.FormField__Input {
+  width: 85%;
+  font-family: 'Baloo Chettan', cursive;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: white;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.FormField__Button1 {
+  background-color: white;
+  color: black;font-family: 'Baloo Chettan', cursive;
+  width: 150px;
+  float: left;
+  margin-left: 30%;
+  outline: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 1px solid white;
+  text-align: center;
+  font-weight: 500;
+}
+
+.FormField__Button1:hover{
+  background-color:   #2a235d;
+  cursor: pointer;
+  font-family: 'Baloo Chettan', cursive;
+  color:white
+}
+
+
+.FormField__Button2 {
+  color: white;
+  width: 250px;
+  border: none;
+  margin-left: 18%;
+  float: left;
+  font-family: 'Baloo Chettan', cursive;
+  outline: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 800;
+}
+
+.FormField__Button2:hover{
+  cursor: pointer;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.Create__Button1 {
+  background-color: white;
+  color: black;font-family: 'Baloo Chettan', cursive;
+  width: 150px;
+  outline: none;
+  margin-left: 30%;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 1px solid white;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Create__Button1:hover{
+  background-color:   #2a235d;
+  cursor: pointer;
+  font-family: 'Baloo Chettan', cursive;
+  color:white
+}
+
+
+.FormField__Link {
+  color: #66707D;
+  text-decoration: none;
+  font-family: 'Baloo Chettan', cursive;
+  display: inline-block;
+  border-bottom: 1.5px solid #225E62;
+  padding-bottom: 5px;
+}
